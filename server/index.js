@@ -35,6 +35,6 @@ socket.on('message',({message,id})=>{
 })
     
   });
-server.listen(port, () => {
+server.listen(8000, () => {
     console.log("working");
   });
